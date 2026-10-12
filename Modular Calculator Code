@@ -1,4 +1,6 @@
 
+#Inputs
+
 num1 = float(input("Give first number: "))
 
 num2 = float(input("Give second number: "))
@@ -11,6 +13,8 @@ print ("4 - Division")
 
 operation = int(input("Choose your operation: "))
 
+#Functions Functioning
+
 def add1 (num1, num2):
     return num1 + num2
 
@@ -22,6 +26,8 @@ def multiplication3 (num1, num2):
     
 def division4 (num1, num2):
     return num1/num2
+
+#Outputs
 
 if operation == 1:
     result = add1(num1, num2)
